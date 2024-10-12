@@ -144,3 +144,42 @@ section#three .author {
     margin: 1rem 0;
     align-self: flex-end;
 }
+
+section#four {
+    display: flex;                                                                                          
+    justify-content: center;
+    align-items: center;
+    padding: 8rem 16rem;
+}
+
+section#four .cta {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4rem;
+    background-color: #3882f6;
+    border-radius: 12px;                                                                                                                                      
+}
+
+section#four h4 {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+section#four p {
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+section#four button {
+    padding: 8px 32px;
+    font-size: 18px;
+    color: #f9faf8;
+    font-weight: 700;
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    border-radius: 8px;
+    cursor: pointer;
+}
