@@ -83,3 +83,42 @@ section#one div#hero .img {
     color: #e5e7eb;
     background-color: #616a75;
 }
+
+section#two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section#two h3 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    padding: 4rem 0;
+}
+
+section#two .boxes {
+    display: flex;
+    gap: 2rem;
+    padding: 0 20rem 8rem;
+}
+
+section#two .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+section#two .box-img {
+    width: 10rem;
+    height: 10rem;
+    border: 4px solid #3882f6;
+    border-radius: 16px;
+}
+
+section#two .box-txt {
+    text-align: center;
+    font-size: 18px;
+    color: #1f2937
+}
