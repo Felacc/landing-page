@@ -122,3 +122,25 @@ section#two .box-txt {
     font-size: 18px;
     color: #1f2937
 }
+
+section#three {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 8rem 20rem;
+}
+
+section#three .quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+section#three .author {
+    font-size: 24px;
+    color: #1f2937;
+    font-weight: 900;
+    margin: 1rem 0;
+    align-self: flex-end;
+}
