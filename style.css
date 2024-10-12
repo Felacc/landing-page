@@ -40,6 +40,9 @@ section#one header a {
     color: #e5e7eb;
 }
 
+section#one header a:hover {
+    color: #616a75;
+}
 
 section#one div#hero {
     display: flex;
@@ -68,6 +71,11 @@ section#one div#hero button {
     border: none;
     border-radius: 8px;
     cursor: pointer;
+}
+
+section#one div#hero button:hover {
+    color: #f9faf8c0;
+    background-color: #3881f6a8;
 }
 
 section#one div#hero .container {
@@ -182,6 +190,12 @@ section#four button {
     border: 2px solid #f9faf8;
     border-radius: 8px;
     cursor: pointer;
+}
+
+section#four button:hover {
+    color: #f9faf880;
+    background-color: #3881f673;
+    border: 2px solid #f9faf880;
 }
 
 footer {
