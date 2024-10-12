@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+section#one {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 16rem;   
+    background-color: #1f2937;
+}
+
+section#one header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section#one header h1 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+section#one header ul {
+    display: flex;
+    list-style-type: none;
+    gap: 1rem;
+}
+
+section#one header a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+
+section#one div#hero {
+    display: flex;
+    gap: 2rem;
+    padding: 8rem 0 7rem 0;
+}
+
+section#one div#hero h2 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+section#one div#hero p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 1rem 0;
+}
+
+section#one div#hero button {
+    padding: 8px 32px;
+    font-size: 18px;
+    color: #f9faf8;
+    font-weight: 700;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+section#one div#hero .container {
+    flex: auto;
+}
+
+section#one div#hero .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 18px;
+    color: #e5e7eb;
+    background-color: #616a75;
+}
