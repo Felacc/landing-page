@@ -1,3 +1,6 @@
 # landing-page
-A simple non-functional landing page created for The Odin Project.
-My intent for this project is to practice using Flexbox in CSS.
+A simple landing page made using HTML and CSS with the purpose of practicing using Flexbox.
+
+Non-functional and non-responsive.
+
+Completed for The Odin Project (an open source web development curriculum).
