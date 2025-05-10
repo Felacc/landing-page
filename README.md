@@ -3,4 +3,4 @@ A simple landing page made using HTML and CSS with the purpose of practicing usi
 
 Non-functional and non-responsive.
 
-Completed for The Odin Project (an open source web development curriculum).
+This project is part of The Odin Project: https://www.theodinproject.com/lessons/foundations-landing-page.
